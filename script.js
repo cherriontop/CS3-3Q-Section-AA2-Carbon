@@ -9,5 +9,5 @@ function exponentialPopulationGrowth(){
     let nameOfTheMonster = prompt('Enter the name of the Monster: ');
     let nameAndLocOfTheMonster = locationOfTheMonster.concat(" ", nameOfTheMonster).toUpperCase();
 
-    document.getElementById("result").innerHTML="After " + timeInHours + " hour/s, the population of " + nameAndLocOfTheMonster + " has risen to " + finalPopulation;
+    document.getElementById("result").innerHTML="After " + timeInHours + " hour/s, the population of " + nameAndLocOfTheMonster + " has risen to " + finalPopulation + ".";
 }
